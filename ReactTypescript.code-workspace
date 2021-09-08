@@ -1,0 +1,66 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.autoindent": false,
+    "vim.easymotion": true,
+    "files.autoSave": "onWindowChange",
+    "[html]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "vim.normalModeKeyBindings": [
+      {
+        "before": ["leader", "f"],
+        "after": ["leader", "leader", "/"]
+      },
+      {
+        "before": ["leader", "w"],
+        "after": [":w <CR>"]
+      }
+    ],
+    "editor.detectIndentation": false,
+    "vim.useSystemClipboard": true,
+    "editor.fontLigatures": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.lineNumbers": "relative",
+    "editor.stablePeek": true,
+    "editor.cursorBlinking": "expand",
+    "editor.fontWeight": "normal",
+    "editor.formatOnPaste": true,
+    "diffEditor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "files.defaultLanguage": "Typescript",
+    "vetur.format.defaultFormatter.ts": "none",
+    "C_Cpp.autoAddFileAssociations": false,
+    "vim.handleKeys": {
+      "<C-S-X>": false,
+      "<C-S-G>": false,
+      "<C-S-B>": false,
+      "<C-b>": false,
+      "<C-c>": false,
+      "<C-v>": false,
+      "<C-w>": false,
+      "<C-k>": false,
+      "<C-n>": false,
+      "<C-x>": false,
+      "<C-a>": false,
+      "<C-y>": false,
+      "<C-d>": true
+    },
+    "vim.leader": "<space>",
+    "editor.fontFamily": "JetBrains Mono, 'New Courier', monospace",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.enablePreview": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
+}

@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Button } from "./components/Button/ButtonComponent";
-
-function App() {
-  return (
-      <>
-        <h1>My App</h1>
-        <Button type="primary">Test</Button>
-        <Button>Default </Button>
-    </>
-  );
+import TrackClick, {  } from "./components/HOC/TrackClick";
+import { Profile } from "./components/HOC/Profile";
+import { NewFeed } from "./components/HOC/NewFeed";
+class App extends React.Component {
+    render() {
+        return (
+            <>
+                <h1>My App</h1>
+                <TrackClick renderProps={(click) => <Profile clicks={click}></Profile>}></TrackClick>
+                <TrackClick renderProps={(click) => <NewFeed clicks={click}></NewFeed>}></TrackClick>
+            </>
+        );
+    }
 }
 
 export default App;

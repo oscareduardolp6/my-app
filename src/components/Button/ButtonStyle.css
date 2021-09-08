@@ -1,4 +1,17 @@
-.primary{
-    background-color: aqua; 
+.btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    color: white; 
 }
 
+.btn-primary{
+    background-color: rgb(26, 93, 194)
+}
+
+.btn-default{
+    background-color: red;
+}

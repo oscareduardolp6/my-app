@@ -5,5 +5,5 @@ export interface ICounterManagmentProps {
 
 export interface ICounterManagmentState {
     counter: number;
-
+    users: string[];
 }
