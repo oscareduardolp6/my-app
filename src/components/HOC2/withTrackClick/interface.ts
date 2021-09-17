@@ -3,9 +3,9 @@ export interface withTrackClickProps{
 }
 
 export interface withTrackClickState{
-    click: number; 
+    clicks: number; 
 }
 
 export interface WrappedComponentProps{
-    click: number; 
+    clicks: number; 
 }

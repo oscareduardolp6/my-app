@@ -6,20 +6,20 @@ export const withTrackClicks = (WrappedComponent: React.FC<WrappedComponentProps
         constructor(props: withTrackClickProps){
             super(props); 
             this.state = {
-                click: 0
+                clicks: 0
             }; 
         }
 
         handleClick = () => {
             this.setState({
-                click: this.state.click + 1 
+                clicks: this.state.clicks + 1 
             }); 
         }
 
         render() {
             return(
                 <div onClick={this.handleClick}>
-                    <WrappedComponent click={this.state.click} />
+                    <WrappedComponent clicks={this.state.clicks} />
                 </div>
             ); 
         }
