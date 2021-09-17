@@ -8,7 +8,7 @@ class App extends React.Component {
         return (
             <>
                 <h1>My App</h1>
-                <Profile />
+                <Profile ownerName="Oscar"/>
                 <NewFeed /> 
                 
             </>

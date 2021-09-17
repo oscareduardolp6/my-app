@@ -11,4 +11,4 @@ const Profile: React.FC<ProfileProps> = ({clicks}) => {
     )
 }
 
-export default withTrackClicks(Profile); 
+export default withTrackClicks<ProfileProps>(Profile); 
